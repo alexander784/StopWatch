@@ -1,0 +1,39 @@
+body {
+    background: white;  
+    color: black;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+button:hover{
+    transition: 3.ms;
+    color: aqua;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    color: aquamarine;
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
